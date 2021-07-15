@@ -1,5 +1,5 @@
 #!/usr/bin/zsh
-i=18
+i=1
 while
 do
 	check=$(curl -s -b name=$i http://mercury.picoctf.net:27177/check | grep pico)
